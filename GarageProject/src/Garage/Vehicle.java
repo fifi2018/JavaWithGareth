@@ -59,7 +59,7 @@ public abstract class Vehicle {
  	 
  	 
  	 public String toString() {
-		return colour;
+		return this .type +"  " +colour+"  "+model+"  "+year+"  ";
  		 
  	 }
  	 
