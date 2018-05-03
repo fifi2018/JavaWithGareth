@@ -24,7 +24,8 @@
 		public void addAVehicle(Vehicle newVech) // add a vehicle in garage method to be called in main
 		{
 			
-			this.vehicleList.add(newVech);
+			vehicleList.add(newVech);
+			
 			
 		}
 		
@@ -55,7 +56,7 @@
 
 
 		public ArrayList<Vehicle> getGarageCollection() {
-			return vehicleList;
+			return vehicleList; 
 		}
 
 		
